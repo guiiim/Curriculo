@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz de Revelação</title>
+    </head>
+
+    <body onload="ocultar()">
+        <script src="codigo.js"></script>
+        <div id="login">
+            <form class="card">
+                <div class="card-header">
+                    <h2>Teste?</h2>
+                    <h5>Dica: xx xxxxxxxxxxx</h5>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="resposta">Resposta</label>
+                        <input type="text" id="resposta" autocomplete="off">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input value="Tentar" class="submit" id="btSubmeter" onclick="submeterResp()">
+                </div>
+            </form>
+        </div>
+
+        <div id="correto">
+            <p size="7"> Menino!</p>
+        </div>
+
+    </body>
+</html>
