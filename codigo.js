@@ -13,7 +13,7 @@ function digitarResp()
 
 function submeterResp()
 {
-    if(document.getElementById('resposta').value == 5)
+    if(document.getElementById('resposta').value == 3456)
     {
         alert("Será?");
         document.getElementById('login').style.display = 'none';
