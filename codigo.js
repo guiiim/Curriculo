@@ -15,6 +15,7 @@ function submeterResp()
 {
     if(document.getElementById('resposta').value == 5)
     {
+        alert("Será?");
         document.getElementById('login').style.display = 'none';
         document.getElementById('correto').style.display = 'block';
 
